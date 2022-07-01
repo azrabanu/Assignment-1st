@@ -1,8 +1,8 @@
 const http = require("http");
 
 const obj = {
-    fname:"Atul Kumar",
-    lname : "Pandey"
+    fname:"azra ",
+    lname : "Banu"
 }
 const server = http.createServer(function(req,res){
     res.write("<h1>this is our first server</h1>")
